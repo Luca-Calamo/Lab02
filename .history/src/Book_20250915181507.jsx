@@ -8,6 +8,9 @@ function Book({ book }) {
                 <div className='price'>
                     <h3>{book.price}</h3>
                 </div>
+                <div className='title'>
+                    <h2>{book.title}</h2>
+                </div>
             </a>
         </div>
     );

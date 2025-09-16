@@ -59,15 +59,14 @@
     transition: transform 0.3s;
 }
 
+.price {
+    font-size: large;
+    font-weight: bold;
+}
+
 a {
     text-decoration: none;
     color: black;
-}
-
-.price {
-    font-size: 1.2em;
-    font-weight: bold;
-    text-align: center;
 }
 
 .footer {

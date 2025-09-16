@@ -5,6 +5,9 @@ function Book({ book }) {
                 <div className='image'>
                     <img src={book.image} alt={book.title} />
                 </div>
+                {/* <div className='title'>
+                    <h2>{book.title}</h2>
+                </div> */}
                 <div className='price'>
                     <h3>{book.price}</h3>
                 </div>

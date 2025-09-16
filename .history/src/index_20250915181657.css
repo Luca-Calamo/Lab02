@@ -54,20 +54,12 @@
     border-radius: 0.4em;
 }
 
-.container:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-.price {
-    font-size: 1.2em;
-    font-weight: bold;
+.title h2,
+.price h3 {
+    margin: 0.2em 0;
+    font-size: 1em;
     text-align: center;
+    text-decoration: none;
 }
 
 .footer {

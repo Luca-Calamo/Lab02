@@ -14,6 +14,7 @@
 }
 
 .content {
+    min-height: 100vh;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-auto-rows: auto;
